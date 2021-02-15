@@ -5,8 +5,8 @@ import pandas as pd
 
 st.title('Employee Churn Prediction')
 st.sidebar.title("Enter the features of the employee")
-from PIL import Image
-im = Image.open("Turnover.jpg")
+#from PIL import Image
+#im = Image.open("Turnover.jpg")
 
 st.image(im, width = 450, caption = "Turnover")
 
