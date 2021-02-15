@@ -8,7 +8,7 @@ st.sidebar.title("Enter the features of the employee")
 #from PIL import Image
 #im = Image.open("Turnover.jpg")
 
-st.image(im, width = 450, caption = "Turnover")
+#st.image(im, width = 450, caption = "Turnover")
 
 model = st.selectbox("Select Your Model",  ["Gradient Boosting", "Random Forest"] )
 st.write("Selected Model:", model) # From now on I can use occupation as 
